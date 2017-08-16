@@ -17,7 +17,6 @@ resource "openstack_compute_instance_v2" "sinisters" {
 }
 
 resource "random_id" "sinister" {
-  version = "~> 0.1"
   byte_length = 8
 }
 
