@@ -27,3 +27,8 @@ variable "tenant_network" {
     description = "The network to be used."
     default  = "aio"
 }
+
+variable "openstack_domain_id" {
+    description = "The network to be used."
+    default  = "dd07d7ea40db4146908d6d4d44b2c5fb"
+}
