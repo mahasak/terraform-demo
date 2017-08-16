@@ -17,5 +17,13 @@ resource "openstack_compute_instance_v2" "sinisters" {
 }
 
 resource "random_id" "sinister" {
+  version = "~> 0.1"
   byte_length = 8
 }
+
+#terraform {
+#  backend "consul" {
+#    address = "bigbears.local:8500"
+#    path    = "sinisters/state"
+#  }
+#}
